@@ -1,0 +1,2 @@
+please download td-usb.exe from https://github.com/tokyodevices/td-usb/releases
+and put on the same directry.

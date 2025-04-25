@@ -1,0 +1,23 @@
+[CANape_configuration]
+CONTROL_TYPE=CANapeControl
+PROJECT_PATH=C:\Users\<user_name>\CANape_project_files\project_name
+CASL_SCRIPT_PATH=SCR
+LOG_PATH=LOG
+SIMURATOR=script.cns
+INIT_SCRIPT=set_initial_parameter.cns
+CERTAIN_MODULE=MODULE_NAME
+XCP_MODULE=XCP_MODULE_NAME
+END_WAIT_SEC=3
+
+[checker_switch_control]
+CONTROL_TYPE=ManualCheckerControl
+; CONTROL_TYPE=RelayCheckerControl
+
+[relay_checker_control]
+BAT_RELATIVE_PATH=../libs/bat
+POWER_ON_BAT=power_on.bat
+KEY_ON_BAT=key_on.bat
+VIS_ON_BAT=vis_on.bat
+KEY_OFF_BAT=key_off.bat
+VIS_OFF_BAT=vis_off.bat
+POWER_OFF_BAT=power_off.bat
